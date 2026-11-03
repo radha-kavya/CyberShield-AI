@@ -1,0 +1,42 @@
+
+# Core
+python-dotenv
+
+# LangChain and RAG
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+
+# Document loaders
+pypdf
+docx2txt
+openpyxl
+pandas
+beautifulsoup4
+requests
+unstructured
+
+# Embeddings and Vector Database
+sentence-transformers
+langchain-huggingface
+langchain-chroma
+chromadb
+
+# Hybrid Search and Reranking
+rank-bm25
+
+# Web Application
+streamlit
+fastapi
+uvicorn
+
+# Evaluation and Monitoring
+ragas
+langsmith
+
+# Utilities
+numpy
+scikit-learn
+python-multipart

@@ -1,0 +1,58 @@
+
+[
+    {
+        "event_id": "NET001",
+        "timestamp": "2026-11-01 09:20:00",
+        "source_ip": "198.51.100.23",
+        "destination_ip": "192.0.2.100",
+        "event_type": "suspicious_connection",
+        "protocol": "TCP",
+        "port": 443,
+        "severity": "high",
+        "description": "Multiple connection attempts detected from the same source IP."
+    },
+    {
+        "event_id": "NET002",
+        "timestamp": "2026-11-01 09:25:00",
+        "source_ip": "203.0.113.10",
+        "destination_ip": "192.0.2.105",
+        "event_type": "repeated_access",
+        "protocol": "TCP",
+        "port": 22,
+        "severity": "high",
+        "description": "Repeated access attempts detected on the SSH service."
+    },
+    {
+        "event_id": "NET003",
+        "timestamp": "2026-11-01 10:00:00",
+        "source_ip": "192.0.2.15",
+        "destination_ip": "192.0.2.100",
+        "event_type": "normal_connection",
+        "protocol": "HTTPS",
+        "port": 443,
+        "severity": "low",
+        "description": "Normal connection to the internal application server."
+    },
+    {
+        "event_id": "NET004",
+        "timestamp": "2026-11-01 10:30:00",
+        "source_ip": "198.51.100.50",
+        "destination_ip": "192.0.2.110",
+        "event_type": "port_access",
+        "protocol": "TCP",
+        "port": 3389,
+        "severity": "medium",
+        "description": "Remote desktop service access recorded for investigation."
+    },
+    {
+        "event_id": "NET005",
+        "timestamp": "2026-11-01 11:00:00",
+        "source_ip": "203.0.113.10",
+        "destination_ip": "192.0.2.120",
+        "event_type": "repeated_connection",
+        "protocol": "TCP",
+        "port": 22,
+        "severity": "high",
+        "description": "Another repeated connection event from the same source IP."
+    }
+]
